@@ -48,43 +48,43 @@ interface TravelFormProps {
   }
 
   return (
-    <div>
+    <div className="overflow-auto text-sm">
       <form onSubmit={handleSubmit(onSubmit)}>
         
-        <div>
-          <label htmlFor="destination">Destination</label>
-          <Input {...register('destination')} name='destination' placeholder="destination" />
+        <div className="p-0">
+          <label htmlFor="destination" >Destination</label>
+          <Input {...register('destination')}  name='destination' placeholder="Destination" />
         </div>
         <div>
           <label htmlFor="start_date">Start Date</label>
-          <Input {...register('start_date')} name='start_date' placeholder="start_date" />
+          <Input {...register('start_date')} name='start_date' placeholder="Start Date" />
         </div>
         <div>
           <label htmlFor="end_date">End Date</label>
-          <Input {...register('end_date')} name='end_date' placeholder="end_date" />
+          <Input {...register('end_date')} name='end_date' placeholder="End Date" />
         </div>
         <div>
           <label htmlFor="total_people">Total People</label>
-          <Input {...register('total_people')} name='total_people' placeholder="total_people" />
+          <Input {...register('total_people')} name='total_people' placeholder="Total People" />
         </div>
         <div>
           <label htmlFor="total_luggages">Total Luggages</label>
-          <Input {...register('total_luggages')} name='total_luggages' placeholder="total_luggages" />
+          <Input {...register('total_luggages')} name='total_luggages' placeholder="Total Luggages" />
         </div>
         <div>
           <label htmlFor="budget">Budget</label>
-          <Input {...register('budget')} name='budget' placeholder="budget" />
+          <Input {...register('budget')} name='budget' placeholder="Budget" />
         </div>
         <div>
           <label htmlFor="items_needed">Items Needed</label>
-          <Input {...register('items_needed')} name='items_needed' placeholder="items_needed" />
+          <Input {...register('items_needed')} name='items_needed' placeholder="Items Needed" />
         </div>
         <div>
           <label htmlFor="trip_type">Trip Type</label>
-          <Input {...register('trip_type')} name='trip_type' placeholder="trip_type" />
+          <Input {...register('trip_type')} name='trip_type' placeholder="Trip Type" />
         </div>
         <div className="flex p-1">
-          <Button className="flex justify-start m-3 bg-slate-300 p-2 rounded hover:bg-slate-800 text-white"
+          <Button className="flex justify-start m-3 bg-blue-300 p-2 rounded hover:bg-slate-800 text-white"
           >
             Submit
           </Button>

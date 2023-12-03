@@ -9,8 +9,8 @@ interface InputType {
 const Input = forwardRef(( props: InputType, ref) => {
   return (
     <TextField
+        margin="auto"
         variant="outlined"
-        margin="normal"
         inputRef={ref}
         fullWidth
         type='text'
