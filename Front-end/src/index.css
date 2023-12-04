@@ -4,8 +4,108 @@
 
 body {
 
-background-color: rgb(103, 215, 69)
+background-attachment: fixed;
+background-position: 0ch;
+overflow: scroll;
 
 }
+
+.intro{
+    background-color: rgba(47, 255, 234, 0.74);
+    width: 700px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+
+}
+
+.intro2{
+    background-color: rgba(245, 255, 47, 0.693);
+    width: 700px;
+    height: 275px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+}
+
+.intro3{
+    background-color: rgba(255, 47, 82, 0.863);
+    width: 700px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+
+}
+
+
+.info1{
+    background-color: rgba(172, 255, 47, 0.752);
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.info2{
+    background-color: rgba(140, 113, 219, 0.825);
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+.head1{
+    background-color: rgba(227, 255, 47, 0.814);
+    width: 425px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+}
+
+.head2{
+    background-color: rgba(255, 134, 47, 0.692);
+    width: 700px;
+    height: 75px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+}
+
+.head3{
+    background-color: rgba(47, 130, 255, 0.631);
+    width: 700px;
+    height: 75px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+}
+
+.head4{
+    background-color: rgba(255, 47, 47, 0.663);
+    width: 700px;
+    height: 75px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 3px;
+
+}
+
+
+.pic{
+
+    width: 275px;
+    height:175px;
+}
+
+
+
 
 

@@ -36,7 +36,7 @@ function Navbar() {
                 <p className='mr-6 text-center text-xl'>
                
                 <Link to='/' onClick={ clicked} className='navbar-brand p-20 m-20 text-blue-700 text-xl'>TravNav</Link>
-                <div className="text-right btn-group btn-group-sm">
+                <div className=" btn-group btn-group-sm ">
                
                     <Button className='navbar-brand nav-item p-2 bg-blue-950 btn btn-primary '>
                         <div>
@@ -53,6 +53,16 @@ function Navbar() {
                             <Link to='/Recommendation' onClick={ clicked} className='mt-1 lg:inline-block lg:mt-0
                              text-teal-200 hover:text-white mr-4'>
                                 Recommendation
+                            </Link>
+                        </div>
+
+                    </Button>
+
+                    <Button className='navbar-brand nav-item p-3 bg-blue-950 btn btn-primary'>
+                        <div>
+                            <Link to='/Pictures' onClick={ clicked} className='mt-1 lg:inline-block lg:mt-0
+                             text-teal-200 hover:text-white mr-4'>
+                                Pictures
                             </Link>
                         </div>
 

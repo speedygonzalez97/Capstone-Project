@@ -2,7 +2,7 @@ import Home from '../pages/Home'
 import Planner from '../pages/Planner'
 import Info from '../pages/Info'
 import Recommendation from '../pages/Recommendation'
-
+import Pictures from '../pages/Pictures'
 
 interface RouteType {
     path: string,
@@ -30,6 +30,11 @@ const routes: RouteType[] = [
         path: "/Recommendation",
         component: Recommendation,
         name: "Recommendation",
+    },
+    {
+      path: "/Pictures",
+      component: Pictures,
+      name: "Pictures",
     },
 ]
    

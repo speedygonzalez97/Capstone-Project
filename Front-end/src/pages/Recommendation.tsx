@@ -8,12 +8,16 @@ function Recommendation() {
     <div className='h-screen'>
         <br></br>
         <br></br>
+        <br></br><br></br>
         <br></br>
         <br></br>
     <div className="container mt-3">
-        <h1 className="text-lime-400 text-xl">Dark Striped Table</h1>
-        <h1 className="text-orange-400 text-xl">This table has recommended websites, resorces, countries, and many help for your travel.
-        Utilize it wisely and click on the links. </h1>            
+        <h1 className="head2 text-lime-200 text-xl">This table has recommended websites, resorces, countries, and many help for your travel.
+        Utilize it wisely and click on the links.</h1>
+
+        <br></br>
+        <br></br>
+
         <table className="table table-success table-striped">
             <thead>
             <tr>

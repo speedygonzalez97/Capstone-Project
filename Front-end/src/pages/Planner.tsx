@@ -16,7 +16,7 @@ function Planner() {
     <br></br>
       
       
-      <p className='justify-center mx-auto bg-cover bg-fixed text-center text-lime-300'>
+      <p className='head4 justify-center mx-auto bg-cover bg-fixed text-center text-lime-300'>
       This is where you can plan your future travels. Input your desired destination, flight date range,<br></br>
       total people, total luggages, trip type, items needed, and planned budget. </p>
             <DataTable />

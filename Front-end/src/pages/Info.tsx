@@ -11,13 +11,13 @@ function Info() {
         <br></br>
         <br></br>
         <br></br>
-        <h1 className='p-19 bg-opacity-100 text-lime-200 rounded mx-auto text-xl'>This is the info page where I can give you specific travel tips
+        <h1 className='head3 p-19 bg-opacity-100 text-lime-200 rounded mx-auto text-xl'>This is the info page where I can give you specific travel tips
         and advice that<br></br> can make your travel less stressful and possibly cost-efficient. </h1>
         <br></br>
         <br></br> 
         <br></br>
-        <h1 className='p-19 bg-opacity-100 text-white rounded mx-auto text-sm'>
-
+        <div className="row g-4 p-4 margin-center">
+        <h1 className='margin-left info1 p-19 bg-opacity-100 text-black rounded mx-auto text-sm'>
         <li>Create an account and start gathering all the information that you will need for your next trip. </li>
 
         <li>Be aware of your current budget and how much money you are going to be spending on your next trip. </li>
@@ -54,8 +54,46 @@ function Info() {
         <li> Get familiar with the procedure, especially if you frequently travel  <br></br>
         having experience knowledge, can help your brain and gut make wiser decisions.</li>
 
+        </h1>
+        <h1 className='margin-left info2 p-19 bg-opacity-100 text-black rounded mx-auto text-sm'>
+
+        <li>Plan and research: Before your trip, gather information about your destination. Learn about the local culture, 
+          
+          customs, transportation options, and popular attractions to make the most of your time there. </li>
+
+        <li>Pack light: Try to pack only what you truly need to avoid excessive baggage fees and the hassle of carrying heavy bags. 
+          Stick to essential clothing items and versatile pieces that can be mixed and matched. </li>
+
+        <li>Secure your documents: Keep your passport, identification, travel insurance, and other 
+          important documents in a safe and easily accessible place. Make copies or store digital
+           copies in case of loss or theft.
+        </li>
+
+        <li> Check visa requirements: Ensure that you have the necessary visas and permits for your 
+          destination well in advance. Some countries may require a visa, and obtaining one can take time, 
+          so it's crucial to check and apply early.
+        </li>
+
+        <li>Stay connected: Research and plan for reliable internet connectivity options while traveling. 
+          This can help you navigate, stay in touch with loved ones, and access important information. </li>
+
+        <li>Pack a travel adapter: Different countries have different plug types, so bring a universal travel
+           adapter to keep your devices charged. This will ensure you can use your electronics without any issues. </li>
+
+        <li>Stay hydrated and take care of your health: Traveling can be tiring, so drink plenty of water to stay hydrated.
+           Also, prioritize your health by getting enough sleep, eating well, and taking necessary medications or vaccinations.</li>
+
+        <li>Be open-minded and respectful: Embrace the local culture and customs with an open mind. Respect the traditions and etiquette 
+          of the place you are visiting, and be mindful of any dress codes or behavior expectations.</li>
+
+        <li> Stay safe: Prioritize your safety while traveling. Be aware of your surroundings, keep an eye on your belongings,
+           and avoid risky situations. Research the local laws and emergency contact numbers beforehand.</li>
+
+        <li>Enjoy the journey: Lastly, remember to enjoy the experience. Traveling is an opportunity to explore new places,
+           meet new people, and create lasting memories. Embrace the adventure and make the most of every moment.</li>
         
         </h1>
+        </div>
     </div>
     </div>
   )

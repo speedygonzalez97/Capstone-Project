@@ -48,19 +48,19 @@ interface TravelFormProps {
   }
 
   return (
-    <div className="overflow-auto text-sm">
-      <form onSubmit={handleSubmit(onSubmit)}>
-        
-        <div className="p-0">
+
+    <div className="text-sm">
+      <form className="text-sm" onSubmit={handleSubmit(onSubmit)}>
+        <div>
           <label htmlFor="destination" >Destination</label>
-          <Input {...register('destination')}  name='destination' placeholder="Destination" />
+          <Input {...register('destination')} name='destination' placeholder="Destination" />
         </div>
         <div>
           <label htmlFor="start_date">Start Date</label>
           <Input {...register('start_date')} name='start_date' placeholder="Start Date" />
         </div>
         <div>
-          <label htmlFor="end_date">End Date</label>
+          <label htmlFor="end_date">End Date </label>
           <Input {...register('end_date')} name='end_date' placeholder="End Date" />
         </div>
         <div>
@@ -90,7 +90,10 @@ interface TravelFormProps {
           </Button>
         </div>
       </form>
+      
     </div>
+    
+    
   )
 }
 
