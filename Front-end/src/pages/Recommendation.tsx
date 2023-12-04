@@ -21,8 +21,8 @@ function Recommendation() {
         <table className="table table-success table-striped">
             <thead>
             <tr>
-            <th>Best travel websites</th>
             <th>Best travel gear blogs</th>
+            <th>Best travel websites</th>
             <th>Best cities to travel to</th>
             </tr>
             </thead>
@@ -49,7 +49,7 @@ function Recommendation() {
             </tr>
             <tr>
                 <td><a href="https://www.thepackablelife.com">The Packable Life</a></td>
-                <td><a href="https://www.tripadvisor.com"></a>tripadvisor.com</td>
+                <td><a href="https://www.tripadvisor.com">tripadvisor.com</a></td>
                 <td>Rio de Janeiro</td>
             </tr>
             <tr>
